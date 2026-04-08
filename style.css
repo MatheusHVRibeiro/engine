@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -5,6 +17,10 @@ table, th, td {
 
 td{
     padding: 5px;
+}
+
+button.paleta{
+  width: auto;
 }
 
 td:hover{
